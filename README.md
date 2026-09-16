@@ -95,9 +95,12 @@ review by Chilean teachers and subject-matter experts.
 
 ## Citation
 
-Use the metadata in `CITATION.cff`. After the first Zenodo release, add the
-version DOI to that file and cite the immutable Zenodo record rather than only
-the GitHub branch.
+Please cite the archived Version 1.0.0:
+
+Vidal-Silva, C., et al. (2026). STEM-IA Escolar: A Reproducible
+Dataset of Curriculum-Aligned Evidence Profiles and Teacher-Controlled
+Recommendation Rules (Version 1.0.0) [Data set]. Zenodo.
+https://doi.org/10.5281/zenodo.XXXXXXXX
 
 ## Licenses
 
