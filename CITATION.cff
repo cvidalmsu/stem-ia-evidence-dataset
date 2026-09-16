@@ -4,6 +4,7 @@ title: "STEM-IA Escolar: A Reproducible Dataset of Curriculum-Aligned Evidence P
 type: dataset
 version: 1.0.0
 date-released: 2026-09-16
+doi: "10.5281/zenodo.22796792"
 authors:
   - family-names: Vidal-Silva
     given-names: Cristian
