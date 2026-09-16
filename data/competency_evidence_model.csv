@@ -1,0 +1,8 @@
+domain_id,domain,observable_performance,representative_evidence
+D1,problem_formulation,"Identifies purpose, users, variables, constraints and success criteria",problem statement; annotated variables; success criteria
+D2,algorithm_design,Decomposes the problem and specifies ordered procedures,unplugged trace; pseudocode; flow diagram
+D3,block_programming,"Implements sequences, conditions, iteration and variables",Scratch project; execution trace; explanation
+D4,electronic_simulation,"Connects code, sensors, actuators and simulated circuit behavior",Tinkercad circuit; simulation log; annotated connections
+D5,physical_computing,Builds and tests an Arduino-compatible physical prototype,prototype; code; calibration and debugging record
+D6,data_and_scientific_reasoning,"Measures, represents and interprets data from the designed system",measurement table; graph; evidence-based explanation
+D7,evaluation_and_communication,Evaluates the solution against criteria and communicates limitations,test results; revision log; presentation; reflection

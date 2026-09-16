@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "rule": "R3",
+  "label": "instrumental",
+  "evidence": [
+    "constructed-reasoning",
+    "constructed-representation",
+    "constructed-operation"
+  ],
+  "action": "Provide a tool-navigation worked example",
+  "uncertainty": "not_probabilistically_calibrated",
+  "teacher_status": "pending",
+  "applied": false
+}
+

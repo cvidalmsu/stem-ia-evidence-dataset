@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cvidalmsu/stem-ia-evidence-dataset/schema/profile.schema.json",
+  "title": "STEM-IA evidence profile",
+  "description": "Schema for constructed, non-participant evidence profiles.",
+  "type": "object",
+  "required": [
+    "profile_id",
+    "reasoning",
+    "representation",
+    "operation",
+    "execution",
+    "conflict",
+    "expected_rule",
+    "expected_label",
+    "expected_action",
+    "teacher_status",
+    "applied",
+    "participant_data"
+  ],
+  "properties": {
+    "profile_id": {"type": "string", "pattern": "^[PC][0-9]{3}$"},
+    "reasoning": {"enum": ["pass", "fail", "unknown"]},
+    "representation": {"enum": ["pass", "fail", "unknown"]},
+    "operation": {"enum": ["pass", "fail", "unknown"]},
+    "execution": {"enum": ["pass", "fail", "unknown"]},
+    "conflict": {"type": "boolean"},
+    "expected_rule": {"enum": ["R0", "RU", "R1", "R2", "R3", "R4", "R5"]},
+    "expected_label": {"enum": ["review", "insufficient", "conceptual", "representational", "instrumental", "implementation", "no_observed_barrier"]},
+    "expected_action": {"type": "string", "minLength": 1},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "evidence_count": {"type": "integer", "minimum": 0, "maximum": 4},
+    "uncertainty": {"const": "not_probabilistically_calibrated"},
+    "teacher_status": {"const": "pending"},
+    "applied": {"const": false},
+    "data_origin": {"const": "deterministically_constructed"},
+    "participant_data": {"const": false}
+  },
+  "additionalProperties": false
+}
+

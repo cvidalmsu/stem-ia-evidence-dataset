@@ -1,0 +1,49 @@
+dataset,variable,data_type,allowed_values,description
+evidence_profiles.csv,profile_id,string,,Unique constructed profile identifier
+evidence_profiles.csv,reasoning,categorical,pass|fail|unknown,Algorithmic-reasoning evidence state
+evidence_profiles.csv,representation,categorical,pass|fail|unknown,"Block, diagram or symbolic representation evidence state"
+evidence_profiles.csv,operation,categorical,pass|fail|unknown,Tool-operation evidence state
+evidence_profiles.csv,execution,categorical,pass|fail|unknown,Implementation or execution evidence state
+evidence_profiles.csv,conflict,boolean,true|false,Whether explicit contradictory evidence overrides the standard rules
+evidence_profiles.csv,expected_rule,categorical,R0|RU|R1|R2|R3|R4|R5,Identifier of the rule expected to fire
+evidence_profiles.csv,expected_label,categorical,review|insufficient|conceptual|representational|instrumental|implementation|no_observed_barrier,Expected barrier or review label
+evidence_profiles.csv,expected_action,string,,Candidate teacher-facing support action
+evidence_profiles.csv,evidence_ids,JSON array,,Identifiers of constructed evidence used by the rule
+evidence_profiles.csv,evidence_count,integer,,Number of evidence identifiers used
+evidence_profiles.csv,uncertainty,categorical,,Calibration limitation of the deterministic result
+evidence_profiles.csv,teacher_status,categorical,pending,Authorization state before a teacher decision
+evidence_profiles.csv,applied,boolean,true|false,Whether an action has been authorized and applied
+evidence_profiles.csv,data_origin,categorical,,Origin classification for the record
+evidence_profiles.csv,participant_data,boolean,true|false,Whether the record contains participant observations
+conflict_profiles.csv,profile_id,string,,Unique constructed profile identifier
+conflict_profiles.csv,reasoning,categorical,pass|fail|unknown,Algorithmic-reasoning evidence state
+conflict_profiles.csv,representation,categorical,pass|fail|unknown,"Block, diagram or symbolic representation evidence state"
+conflict_profiles.csv,operation,categorical,pass|fail|unknown,Tool-operation evidence state
+conflict_profiles.csv,execution,categorical,pass|fail|unknown,Implementation or execution evidence state
+conflict_profiles.csv,conflict,boolean,true|false,Whether explicit contradictory evidence overrides the standard rules
+conflict_profiles.csv,expected_rule,categorical,R0|RU|R1|R2|R3|R4|R5,Identifier of the rule expected to fire
+conflict_profiles.csv,expected_label,categorical,review|insufficient|conceptual|representational|instrumental|implementation|no_observed_barrier,Expected barrier or review label
+conflict_profiles.csv,expected_action,string,,Candidate teacher-facing support action
+conflict_profiles.csv,evidence_ids,JSON array,,Identifiers of constructed evidence used by the rule
+conflict_profiles.csv,evidence_count,integer,,Number of evidence identifiers used
+conflict_profiles.csv,uncertainty,categorical,,Calibration limitation of the deterministic result
+conflict_profiles.csv,teacher_status,categorical,pending,Authorization state before a teacher decision
+conflict_profiles.csv,applied,boolean,true|false,Whether an action has been authorized and applied
+conflict_profiles.csv,data_origin,categorical,,Origin classification for the record
+conflict_profiles.csv,participant_data,boolean,true|false,Whether the record contains participant observations
+expected_recommendations.csv,profile_id,string,,Unique constructed profile identifier
+expected_recommendations.csv,reasoning,categorical,pass|fail|unknown,Algorithmic-reasoning evidence state
+expected_recommendations.csv,representation,categorical,pass|fail|unknown,"Block, diagram or symbolic representation evidence state"
+expected_recommendations.csv,operation,categorical,pass|fail|unknown,Tool-operation evidence state
+expected_recommendations.csv,execution,categorical,pass|fail|unknown,Implementation or execution evidence state
+expected_recommendations.csv,conflict,boolean,true|false,Whether explicit contradictory evidence overrides the standard rules
+expected_recommendations.csv,expected_rule,categorical,R0|RU|R1|R2|R3|R4|R5,Identifier of the rule expected to fire
+expected_recommendations.csv,expected_label,categorical,review|insufficient|conceptual|representational|instrumental|implementation|no_observed_barrier,Expected barrier or review label
+expected_recommendations.csv,expected_action,string,,Candidate teacher-facing support action
+expected_recommendations.csv,evidence_ids,JSON array,,Identifiers of constructed evidence used by the rule
+expected_recommendations.csv,evidence_count,integer,,Number of evidence identifiers used
+expected_recommendations.csv,uncertainty,categorical,,Calibration limitation of the deterministic result
+expected_recommendations.csv,teacher_status,categorical,pending,Authorization state before a teacher decision
+expected_recommendations.csv,applied,boolean,true|false,Whether an action has been authorized and applied
+expected_recommendations.csv,data_origin,categorical,,Origin classification for the record
+expected_recommendations.csv,participant_data,boolean,true|false,Whether the record contains participant observations

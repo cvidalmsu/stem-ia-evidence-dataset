@@ -1,0 +1,56 @@
+{
+  "dataset": "STEM-IA Escolar curriculum-aligned evidence profiles",
+  "version": "1.0.0",
+  "generated_by": "src/generate_dataset.py",
+  "deterministic": true,
+  "contains_participant_data": false,
+  "resources": [
+    {
+      "path": "data/competency_evidence_model.csv",
+      "bytes": 1049,
+      "sha256": "2c8c5959c09e5f77ea58eebcfcf6f75bdbd0d2c45023cf6be1a0f384d98fe3e4",
+      "records": 7
+    },
+    {
+      "path": "data/conflict_profiles.csv",
+      "bytes": 21046,
+      "sha256": "b9c7266b9f24cae1a12fa54620843d4401bfbcc35b6007e8e1ca99b3e829e72d",
+      "records": 81
+    },
+    {
+      "path": "data/curriculum_domain_mapping.csv",
+      "bytes": 955,
+      "sha256": "f193f37806813979a19380660a803e95a677321a1c8eafdfbab68b46965d2a29",
+      "records": 6
+    },
+    {
+      "path": "data/evidence_profiles.csv",
+      "bytes": 17158,
+      "sha256": "1585ccba75665ceae5677d8a2a76cd22f38e11ad0041f6970ac147aaf80084ca",
+      "records": 81
+    },
+    {
+      "path": "data/expected_recommendations.csv",
+      "bytes": 38002,
+      "sha256": "f3af2dfb0350a831709734899607dec0f0c7eb1945bc509bc87f7dfeddd2c43f",
+      "records": 162
+    },
+    {
+      "path": "data/recommendation_rules.csv",
+      "bytes": 737,
+      "sha256": "0e4d8ff6a38a5edffb239314542b1f71ba29943d0ebb8d83be8f4019ab25c20f",
+      "records": 7
+    },
+    {
+      "path": "metadata/data_dictionary.csv",
+      "bytes": 5176,
+      "sha256": "e347162b42be03e84c1de961821947679bc72bbcf5e22a43d51edc4ec7737b1f",
+      "records": 48
+    },
+    {
+      "path": "metadata/schema.json",
+      "bytes": 1610,
+      "sha256": "346ef5ebfe1648f47f61b332a4f57c35790b6da04d82d48f0c067306087fe189"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the archived version and the associated Data Descriptor."
+title: "STEM-IA Escolar: A Reproducible Dataset of Curriculum-Aligned Evidence Profiles and Teacher-Controlled Recommendation Rules"
+type: dataset
+version: 1.0.0
+date-released: 2026-09-16
+authors:
+  - family-names: Vidal-Silva
+    given-names: Cristian
+    email: cvidal@utalca.cl
+  - family-names: de la Fuente-Burdiles
+    given-names: Claudia
+  - family-names: Castro-Paredes
+    given-names: Moyra
+  - family-names: Saens-Navarrete
+    given-names: Rodrigo
+  - family-names: Silvestre
+    given-names: Luis
+  - family-names: Iturra-Herrera
+    given-names: Carolina
+  - family-names: Ortiz
+    given-names: Manuel
+  - family-names: Bustamante-Muñoz
+    given-names: Wanda
+  - family-names: Poblete-Ávila
+    given-names: Valeria
+  - family-names: Arroyo-Roco
+    given-names: José
+  - family-names: Silva-Flores
+    given-names: Marcia
+  - family-names: Centeno-Dubén
+    given-names: Marco
+repository-code: "https://github.com/cvidalmsu/stem-ia-evidence-dataset"
+license: CC-BY-4.0
+keywords:
+  - algorithmic thinking
+  - computational thinking
+  - learning analytics
+  - educational decision support
+  - evidence profiles
+  - teacher control
+  - reproducibility
+

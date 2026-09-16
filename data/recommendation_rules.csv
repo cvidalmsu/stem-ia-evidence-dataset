@@ -1,0 +1,8 @@
+rule_id,priority,trigger,label,action
+R0,0,conflict=true,review,Ask the teacher to reconcile conflicting evidence
+RU,1,first required state is unknown,insufficient,Collect the missing prerequisite evidence
+R1,2,reasoning=fail,conceptual,Request an unplugged tracing explanation
+R2,3,reasoning=pass and representation=fail,representational,Map the explained procedure to blocks or a diagram
+R3,4,reasoning=pass and representation=pass and operation=fail,instrumental,Provide a tool-navigation worked example
+R4,5,reasoning=pass and representation=pass and operation=pass and execution=fail,implementation,"Inspect wiring, calibration, timing and tests"
+R5,6,all four states=pass,no_observed_barrier,Offer a teacher-selected transfer task

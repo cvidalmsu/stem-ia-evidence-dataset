@@ -1,0 +1,21 @@
+name: Validate dataset
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regenerate released resources
+        run: python src/generate_dataset.py
+      - name: Run conformance tests
+        run: python -m unittest discover -s tests -v
+      - name: Require a clean deterministic regeneration
+        run: git diff --exit-code
+

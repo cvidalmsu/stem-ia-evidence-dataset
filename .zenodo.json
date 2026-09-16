@@ -1,0 +1,38 @@
+{
+  "title": "STEM-IA Escolar: A Reproducible Dataset of Curriculum-Aligned Evidence Profiles and Teacher-Controlled Recommendation Rules",
+  "upload_type": "dataset",
+  "description": "A deterministic, non-participant benchmark containing 81 exhaustive evidence profiles, 81 conflict variants, expected teacher-controlled decision-support outputs, competency metadata, curriculum-domain mappings, and reproducibility tests.",
+  "creators": [
+    {"name": "Vidal-Silva, Cristian", "affiliation": "Universidad de Talca"},
+    {"name": "de la Fuente-Burdiles, Claudia", "affiliation": "Universidad de Talca"},
+    {"name": "Castro-Paredes, Moyra", "affiliation": "Universidad de Talca"},
+    {"name": "Saens-Navarrete, Rodrigo", "affiliation": "Universidad de Talca"},
+    {"name": "Silvestre, Luis", "affiliation": "Universidad de Talca"},
+    {"name": "Iturra-Herrera, Carolina", "affiliation": "Universidad de Talca"},
+    {"name": "Ortiz, Manuel", "affiliation": "Universidad de Talca"},
+    {"name": "Bustamante-Muñoz, Wanda", "affiliation": "Universidad de Talca"},
+    {"name": "Poblete-Ávila, Valeria", "affiliation": "Universidad de Talca"},
+    {"name": "Arroyo-Roco, José", "affiliation": "Universidad de Talca"},
+    {"name": "Silva-Flores, Marcia", "affiliation": "Universidad de Talca"},
+    {"name": "Centeno-Dubén, Marco", "affiliation": "Universidad de Talca"}
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "keywords": [
+    "algorithmic thinking",
+    "computational thinking",
+    "learning analytics",
+    "teacher-controlled decision support",
+    "evidence provenance",
+    "reproducible dataset"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/cvidalmsu/stem-ia-evidence-dataset",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
+

@@ -1,0 +1,7 @@
+mapping_id,curriculum_area,grade_band,learning_focus,dataset_domain_id,mapping_status
+M01,Technology,7-8 basic education,Identify needs and define technological problems,D1,design_mapping_requires_expert_validation
+M02,Technology,7-8 basic education,"Design, implement and evaluate technological solutions",D4;D5;D7,design_mapping_requires_expert_validation
+M03,Mathematics,7-8 basic education,"Variables, patterns, proportional reasoning and functions",D2;D3;D6,design_mapping_requires_expert_validation
+M04,Mathematics,7-8 basic education,Data representation and interpretation,D6,design_mapping_requires_expert_validation
+M05,Natural Sciences,7-8 basic education,"Measurement, experimentation and interpretation of phenomena",D4;D5;D6,design_mapping_requires_expert_validation
+M06,Cross-curricular STEM,7-8 basic education,"Integrate algorithms, models, evidence and technological design",D1;D2;D3;D4;D5;D6;D7,design_mapping_requires_expert_validation

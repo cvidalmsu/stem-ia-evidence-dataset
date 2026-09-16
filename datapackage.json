@@ -1,0 +1,19 @@
+{
+  "profile": "data-package",
+  "name": "stem-ia-evidence-dataset",
+  "title": "STEM-IA Escolar Evidence Profiles Dataset",
+  "version": "1.0.0",
+  "description": "Constructed non-participant evidence profiles and expected teacher-controlled recommendation outputs.",
+  "licenses": [
+    {"name": "CC-BY-4.0", "path": "https://creativecommons.org/licenses/by/4.0/", "title": "Creative Commons Attribution 4.0 International"}
+  ],
+  "resources": [
+    {"name": "evidence-profiles", "path": "data/evidence_profiles.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "conflict-profiles", "path": "data/conflict_profiles.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "expected-recommendations", "path": "data/expected_recommendations.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "recommendation-rules", "path": "data/recommendation_rules.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "competency-evidence-model", "path": "data/competency_evidence_model.csv", "format": "csv", "mediatype": "text/csv"},
+    {"name": "curriculum-domain-mapping", "path": "data/curriculum_domain_mapping.csv", "format": "csv", "mediatype": "text/csv"}
+  ]
+}
+

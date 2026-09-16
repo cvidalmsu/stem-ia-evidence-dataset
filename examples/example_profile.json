@@ -1,0 +1,15 @@
+{
+  "profile_id": "example-only",
+  "reasoning": "pass",
+  "representation": "pass",
+  "operation": "fail",
+  "execution": "fail",
+  "conflict": false,
+  "evidence_ids": {
+    "reasoning": "constructed-reasoning",
+    "representation": "constructed-representation",
+    "operation": "constructed-operation",
+    "execution": "constructed-execution"
+  }
+}
+
