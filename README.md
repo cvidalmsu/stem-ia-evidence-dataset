@@ -100,7 +100,7 @@ Please cite the archived Version 1.0.0:
 Vidal-Silva, C., et al. (2026). STEM-IA Escolar: A Reproducible
 Dataset of Curriculum-Aligned Evidence Profiles and Teacher-Controlled
 Recommendation Rules (Version 1.0.0) [Data set]. Zenodo.
-https://doi.org/10.5281/zenodo.XXXXXXXX
+https://10.5281/zenodo.22796792
 
 ## Licenses
 
